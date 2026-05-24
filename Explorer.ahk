@@ -3,7 +3,7 @@ ExplorerPath(i?)  => (filepaths := ExplorerPaths(i?), filepaths.has(1) ? filepat
 ExplorerBase(i?)  => ExplorerSplitPath(ExplorerPath(i?)).basename
 ExplorerDrive(i?) => ExplorerSplitPath(ExplorerDir(i?)).drive
 ExplorerDir(i?)   => ExplorerActive(i?)[1]
-ExplorerFile(i?)  => ExplorerSplitPath(ExplorerPath(i?)).filename
+ExplorerName(i?)  => ExplorerSplitPath(ExplorerPath(i?)).filename
 ExplorerExt(i?)   => ExplorerSplitPath(ExplorerPath(i?)).extension
 
 ExplorerSplitPath(filepath) {
