@@ -16,4 +16,4 @@ Gets selected file names from the current explorer window
     for filepath in ExplorerPaths()
         MsgBox filepath
 
-    MsgBox ExplorerWin(i?) - Gets hwnd of current explorer window
+    MsgBox ExplorerWin(i?)  ; Gets hwnd of current explorer window
