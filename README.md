@@ -6,7 +6,7 @@ Gets selected file names from the current explorer window
 
     MsgBox ExplorerDrive()  ; Gets the drive letter of the current explorer window
     MsgBox ExplorerDir()    ; Gets the directory open in the current explorer window
-    MsgBox ExplorerFile()   ; Gets selected filename only (no extension)
+    MsgBox ExplorerName()   ; Gets selected filename only (no extension)
     MsgBox ExplorerExt()    ; Gets selected extension
     MsgBox ExplorerBase()   ; Gets selected filename and extension
     MsgBox ExplorerPath()   ; Gets selected filepath in the current explorer window
