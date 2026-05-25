@@ -1,6 +1,12 @@
+<img width="715" height="352" alt="image" src="https://github.com/user-attachments/assets/8126784c-1558-4e25-9dbe-15f3f13aad75" />
+
+ Selected filepath: `D:\Workspace`. Credit to raindropmemory for icons!
+
 # Explorer
 
 Gets selected file names from the current explorer window
+
+
 
 > By default checks only the current active window. To use the last active explorer window, pass `true` or `1`.
 
